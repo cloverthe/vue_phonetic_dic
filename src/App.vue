@@ -1,17 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <InputEncode />
+  <OutputEncode />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import InputEncode from "./components/InputEncode.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { InputEncode },
+};
 </script>
 
 <style>
